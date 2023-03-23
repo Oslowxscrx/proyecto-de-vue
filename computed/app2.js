@@ -10,7 +10,7 @@ const app = new Vue({
         },
         color(){
             return {
-                'bg-success' : this.contador <= ,
+                'bg-success' : this.contador <= 10,
                 'bg-warning' : this.contador > 10 && this.contador <20,
                 'bg-danger'  : this.contador >=20
             }
