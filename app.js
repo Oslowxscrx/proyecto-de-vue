@@ -24,12 +24,12 @@ const app= new Vue({
             localStorage.setItem('gym-vue', JSON.stringify (this.tareas));
         }
     },
-    created: function(){
-        let datosDB = JSON.parse (localStorage.getItem('gym-vue'));
-        if (datosDB === null) {
-            this.tareas = [];
-        } else{
-            this.tareas = datosDB;
+        created: function(){
+            let datosDB = JSON.parse (localStorage.getItem('gym-vue'));
+            if (datosDB === null) {
+                this.tareas = [];
+            } else{
+                this.tareas = datosDB;
         }
     }
 

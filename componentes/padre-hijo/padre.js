@@ -2,7 +2,7 @@ Vue.component('padre',{
 
     template: //html
     `
-    <div class:'text-white'>
+    <div class:"p-5 bg-dark text-white">
         <h2>Componente padre</h2>
     </div>
     `

@@ -3,7 +3,7 @@ Vue.component('saludo', {
     `
     <div>
     <h1>{{saludo}}</h1>
-    <h3>tilin</h3>
+    <h3>que tal</h3>
     </div>
     `,
     data(){
